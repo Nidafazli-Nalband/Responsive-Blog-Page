@@ -4,6 +4,6 @@ window.addEventListener("scroll", () => {
   topBtn.style.display = window.scrollY > 300 ? "block" : "none";
 });
 
-topBtn.addEventListener("click", () => {
+topBtn.onclick = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
-});
+};
