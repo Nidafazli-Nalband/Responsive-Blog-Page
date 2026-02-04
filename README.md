@@ -31,5 +31,5 @@ NovaBlog is a modern, vibrant, and fully responsive blog website inspired by pre
 2. Open `index.html` in browser
 3. Or deploy via Netlify
 
-## 📄 License
-MIT – free to use and modify.
+
+
