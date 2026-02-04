@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NovaBlog</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-[#060B16] text-white">
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h1 class="logo">NovaBlog</h1>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#posts">Posts</a>
+    <a href="#">About</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h2>Bold Ideas.<br>Modern Stories.</h2>
+    <p>A vibrant blog about technology, design, and digital lifestyle.</p>
+  </div>
+  <img src="assets/images/hero.jpg" alt="Hero Image">
+</section>
+
+<!-- POSTS -->
+<section id="posts" class="posts">
+  <article class="card">
+    <img src="assets/images/post1.jpg" alt="Tech">
+    <span class="tag tech">TECH</span>
+    <h3>The Rise of AI Interfaces</h3>
+    <p>How artificial intelligence is reshaping digital products.</p>
+  </article>
+
+  <article class="card">
+    <img src="assets/images/post2.jpg" alt="Design">
+    <span class="tag design">DESIGN</span>
+    <h3>Design That Feels Human</h3>
+    <p>Why modern UI must focus on clarity and emotion.</p>
+  </article>
+
+  <article class="card">
+    <img src="assets/images/post3.jpg" alt="Lifestyle">
+    <span class="tag life">LIFESTYLE</span>
+    <h3>Remote Work Reality</h3>
+    <p>Freedom, focus, and flexibility in the digital age.</p>
+  </article>
+</section>
+
+<!-- BACK TO TOP -->
+<button id="topBtn">↑</button>
+
+<script src="main.js"></script>
+</body>
+</html>

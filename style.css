@@ -1,0 +1,129 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  z-index: 100;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 22px;
+  color: #ff4ecd;
+}
+
+.nav-links a {
+  margin-left: 22px;
+  color: #cbd5f5;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #2fffd7;
+}
+
+/* HERO */
+.hero {
+  margin-top: 110px;
+  padding: 70px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.hero-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.6rem;
+  line-height: 1.1;
+  background: linear-gradient(90deg, #ff4ecd, #2fffd7, #ff9f1c);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero-text p {
+  margin-top: 20px;
+  color: #b8c1ff;
+  max-width: 420px;
+}
+
+.hero img {
+  border-radius: 22px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.4);
+}
+
+/* POSTS */
+.posts {
+  padding: 70px 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 32px;
+}
+
+.card {
+  background: rgba(255,255,255,0.06);
+  border-radius: 22px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 45px rgba(255,78,205,0.35);
+}
+
+.card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 16px 18px 6px;
+  font-weight: 600;
+}
+
+.card p {
+  padding: 0 18px 20px;
+  font-size: 14px;
+  color: #c7ceff;
+}
+
+/* TAGS */
+.tag {
+  display: inline-block;
+  margin: 14px 18px 0;
+  padding: 5px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.tech { background: rgba(47,255,215,0.25); }
+.design { background: rgba(255,78,205,0.25); }
+.life { background: rgba(255,159,28,0.25); }
+
+/* BACK TO TOP */
+#topBtn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  background: #2fffd7;
+  color: #000;
+  padding: 12px 16px;
+  border-radius: 50%;
+  font-size: 18px;
+  display: none;
+  cursor: pointer;
+}
