@@ -5,13 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NovaBlog</title>
 
-  <!-- Google Fonts -->
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,46 +20,95 @@
 <nav class="navbar">
   <h1 class="logo">NovaBlog</h1>
   <div class="nav-links">
-    <a href="#">Home</a>
+    <a href="#home">Home</a>
     <a href="#posts">Posts</a>
-    <a href="#">About</a>
+    <a href="#about">About</a>
   </div>
 </nav>
 
-<!-- HERO -->
-<section class="hero">
+<!-- HOME / HERO -->
+<section id="home" class="hero">
   <div class="hero-text">
     <h2>Bold Ideas.<br>Modern Stories.</h2>
-    <p>A vibrant blog about technology, design, and digital lifestyle.</p>
+    <p>
+      NovaBlog explores technology, design, and modern digital life.
+      Clear thinking. Real insights. No noise.
+    </p>
   </div>
-  <img src="assets/images/hero.jpg" alt="Hero Image">
+  <img src="assets/hero.jpg" alt="Modern workspace">
+</section>
+
+<!-- FEATURED -->
+<section class="featured">
+  <img src="assets/post4.jpg" alt="Featured">
+  <div>
+    <h3>Why Modern Blogs Must Be Experience-Driven</h3>
+    <p>
+      Users don’t read blogs anymore — they experience them.
+      Layout, motion, color, and clarity decide whether content survives.
+    </p>
+  </div>
 </section>
 
 <!-- POSTS -->
 <section id="posts" class="posts">
   <article class="card">
-    <img src="assets/images/post1.jpg" alt="Tech">
+    <img src="assets/post1.jpg">
     <span class="tag tech">TECH</span>
     <h3>The Rise of AI Interfaces</h3>
-    <p>How artificial intelligence is reshaping digital products.</p>
+    <p>
+      AI is no longer invisible. Interfaces are becoming conversational,
+      adaptive, and predictive.
+    </p>
   </article>
 
   <article class="card">
-    <img src="assets/images/post2.jpg" alt="Design">
+    <img src="assets/post2.jpg">
     <span class="tag design">DESIGN</span>
     <h3>Design That Feels Human</h3>
-    <p>Why modern UI must focus on clarity and emotion.</p>
+    <p>
+      Minimalism isn’t about less UI.
+      It’s about less confusion.
+    </p>
   </article>
 
   <article class="card">
-    <img src="assets/images/post3.jpg" alt="Lifestyle">
+    <img src="assets/post3.jpg">
     <span class="tag life">LIFESTYLE</span>
     <h3>Remote Work Reality</h3>
-    <p>Freedom, focus, and flexibility in the digital age.</p>
+    <p>
+      Freedom comes with discipline.
+      Remote work rewards clarity and focus.
+    </p>
+  </article>
+
+  <article class="card">
+    <img src="assets/post5.jpg">
+    <span class="tag tech">TECH</span>
+    <h3>Frontend in 2026</h3>
+    <p>
+      The future of frontend is simpler tools,
+      better defaults, and stronger fundamentals.
+    </p>
   </article>
 </section>
 
-<!-- BACK TO TOP -->
+<!-- ABOUT -->
+<section id="about" class="about">
+  <img src="assets/about.jpg" alt="About image">
+  <div>
+    <h2>About NovaBlog</h2>
+    <p>
+      NovaBlog is a personal modern-web project focused on clean UI,
+      readable content, and strong fundamentals.
+    </p>
+    <p>
+      Built with plain HTML, CSS, and JavaScript to prove that
+      good design does not require heavy frameworks.
+    </p>
+  </div>
+</section>
+
 <button id="topBtn">↑</button>
 
 <script src="main.js"></script>

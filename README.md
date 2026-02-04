@@ -19,10 +19,10 @@ NovaBlog is a modern, vibrant, and fully responsive blog website inspired by pre
 ## 📸 Website Preview
 
 ### 🖥 Desktop View
-![NovaBlog Desktop](screenshots/novablog-desktop.png)
+![NovaBlog Desktop](assets/novablog-desktop.png)
 
-### 📱 Mobile View
-![NovaBlog Mobile](screenshots/novablog-mobile.png)
+### 📱Post View
+![NovaBlog Mobile](assets/novablog-posts.png)
 
 > Take screenshots after deployment and place them in a `screenshots/` folder.
 
